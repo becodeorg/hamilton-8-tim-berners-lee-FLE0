@@ -20,7 +20,7 @@ div{
     margin-top: 25px;
     margin-left: 25%;
     width: 50%;
-    height: 130px;
+    height: 175px;
     display: grid;
     grid-template-rows: 33% 33% 33%;
     grid-template-columns: 25% 10% 10% 10% 10% 10% 25%;
@@ -49,6 +49,7 @@ a{
 
 .filmimg{
     float: left;
+    padding-left: 25px;
 }
 
 section{
@@ -66,10 +67,11 @@ section{
 }
 
 button{
+    padding: 0 15px 0 15px;
     margin-bottom: 10px;
-    background-color: red;
+    background-color: rgba(233, 6, 6, 0.692);
     color: white;
-    border: solid red 1px;
+    border: solid rgba(233, 6, 6, 0.692) 1px;
     border-radius: 5px;
     height: 50px;
     font-size: large;
@@ -81,10 +83,12 @@ button{
 
 p{
     text-align: start;
+    color: #a1a19e;
 }
 
 .filmresume{
     padding-left: 250px;
+    padding-right: 25px;
 }
 
 .filmh{
@@ -112,4 +116,16 @@ button:after {
     content: '»';
   }
   
-  
+.facebook, .linkedin, .twitter{
+  color: #c0bfbc;
+  text-decoration: inherit;
+  line-height: 2.1;
+}
+
+h1{
+    color: #7e7e7e;
+}
+
+h2{
+    color: #7e7e7e;
+}
