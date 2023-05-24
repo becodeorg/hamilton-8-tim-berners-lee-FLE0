@@ -1,3 +1,114 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #c0bfbc;
+    font-size: larger;
 }
+
+div{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding: 0 15px 0 15px;
+}
+
+.profile{
+
+}
+
+.resaux{
+    margin-top: 25px;
+    margin-left: 25%;
+    width: 50%;
+    height: 130px;
+    display: grid;
+    grid-row: 33% 33% 33%;
+    grid-template-columns: 25% 10% 10% 10% 10% 10% 25%;
+}
+
+a{
+    grid-row-start: 2;
+}
+
+.facebook{
+    grid-column-start: 2;
+}
+
+.linkedin{
+    grid-column-start: 4;
+}
+
+.twitter{
+    grid-column-start: 6;
+}
+
+.film{
+
+}
+
+.filmimg{
+    float: left;
+}
+
+section{
+    padding: 50px 0 150px;
+}
+
+.Tim{
+    margin-top: 10px;
+    border-radius: 50%;
+    border: solid 5px #c0bfbc;
+}
+
+.timh{
+    color: red;
+}
+
+button{
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border: solid red 1px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+p{
+    text-align: start;
+}
+
+.filmresume{
+    padding-left: 250px;
+}
+
+.filmh{
+    padding-top: 20px;
+}
+
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+    content: '»';
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+    content: '»';
+  }
+  
+  
