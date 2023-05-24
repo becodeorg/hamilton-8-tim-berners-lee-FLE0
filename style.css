@@ -13,7 +13,7 @@ div{
 }
 
 .profile{
-
+    margin-top: 20px;
 }
 
 .resaux{
@@ -28,6 +28,7 @@ div{
 
 a{
     grid-row-start: 2;
+    font-size: 80%;
 }
 
 .facebook{
@@ -51,11 +52,11 @@ a{
 }
 
 section{
-    padding: 50px 0 150px;
+    padding: 30px 0 150px;
 }
 
 .Tim{
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 50%;
     border: solid 5px #c0bfbc;
 }
